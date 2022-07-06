@@ -8,6 +8,6 @@ public class openshiftController {
 
     @GetMapping("/helloOpenshift")
     public String helloOpenshift() {
-        return "Hello OpenShift.";
+        return "Hello OpenShift. Testing WebHook.";
     }
 }
