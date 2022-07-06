@@ -5,14 +5,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OpenshiftDemoApplication implements CommandLineRunner {
+public class OpenshiftDemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(OpenshiftDemoApplication.class, args);
     }
 
-    @Override
-    public void run(String... args) throws Exception {
-     System.out.println("Hello OpenShift");
-    }
 }
